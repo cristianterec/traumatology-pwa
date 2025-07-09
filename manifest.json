@@ -1,0 +1,129 @@
+{
+  "name": "Traumatologie Urgences - Formation PWA",
+  "short_name": "TraumaUrgences",
+  "description": "Application Progressive Web pour la formation en traumatologie dans les services d'urgences",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr-FR",
+  "categories": ["medical", "education", "health"],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-1.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Traumatologie Adulte",
+      "short_name": "Adulte",
+      "description": "Accès rapide aux modules de traumatologie adulte",
+      "url": "/?filter=adulte",
+      "icons": [
+        {
+          "src": "/icons/shortcut-adult.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Traumatologie Pédiatrique",
+      "short_name": "Pédiatrique",
+      "description": "Accès rapide aux modules de traumatologie pédiatrique",
+      "url": "/?filter=pediatrique",
+      "icons": [
+        {
+          "src": "/icons/shortcut-pediatric.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Quiz Interactifs",
+      "short_name": "Quiz",
+      "description": "Testez vos connaissances avec nos quiz",
+      "url": "/quiz",
+      "icons": [
+        {
+          "src": "/icons/shortcut-quiz.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Urgences Critiques",
+      "short_name": "Urgences",
+      "description": "Procédures d'urgence critiques",
+      "url": "/?priority=emergency",
+      "icons": [
+        {
+          "src": "/icons/shortcut-emergency.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {},
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
